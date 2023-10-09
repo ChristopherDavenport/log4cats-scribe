@@ -1,8 +1,8 @@
-package io.chrisdavenport.log4cats.scribe
+package org.typelevel.log4cats.scribe
 
-import io.chrisdavenport.log4cats.Logger
+import org.typelevel.log4cats.Logger
 import _root_.scribe.{Logger => Base}
-import cats.effect.Sync
+import cats.effect.kernel.Sync
 
 object ScribeLogger {
 
