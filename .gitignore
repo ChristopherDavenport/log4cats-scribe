@@ -3,8 +3,16 @@ target/
 # vim
 *.sw?
 
+.vscode
+
 # Ignore [ce]tags files
 tags
 
-.bloop
 .metals
+.bloop
+project/metals.sbt
+project/project
+.bsp
+
+ # mac
+.DS_Store
